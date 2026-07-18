@@ -51,4 +51,4 @@ Workout Tracker is a simple web application that allows users to add and display
 
 ## Author
 
-Created by sdwybld as part of my programming learning journey.
+Created by Shadowy as part of my programming learning journey.
