@@ -24,6 +24,7 @@ function DisplayWorkouts(){
         output += `
         <div class="workoutcard">
             <h2>${workout.exercise}</h2>
+            <hr>
             <p>${workout.weight}kg x ${workout.reps} reps</p>
             <p>${workout.sets} sets</p>
         </div>

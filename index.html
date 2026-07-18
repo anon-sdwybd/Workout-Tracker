@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workout Tracker</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="JavaScript/script.js" defer></script>
 </head>
 <body>
+    <main>
     <h1>Workout Tracker</h1>
-    
-    <form id="WorkoutForm">
+    <div class="Container">
+    <div class="FormCard">
+        <form id="WorkoutForm">
         <label for="Exercise">Exercise:</label>
         <input type="text" id="Exercise"><br><br>
 
@@ -20,11 +23,16 @@
         <input type="number" id="Reps"><br><br>
 
         <label for="Sets">Sets:</label>
-        <input type="number" id="Sets">
-    </form>
-    <button type="button" id="SubmitButton" onclick="AddWorkout()">Submit</button>
-    <div id="WorkoutList">
+        <input type="number" id="Sets"><br><br>
 
+        <button type="button" id="SubmitButton" onclick="AddWorkout()">Add Workout</button>
+    </form>
     </div>
+
+    <div id="WorkoutList">
+        
+    </div>
+    </div>
+    </main>
 </body>
 </html>
