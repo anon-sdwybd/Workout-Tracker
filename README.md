@@ -22,3 +22,12 @@ A simple JavaScript workout tracker that allows users to add exercises, weight, 
 - localStorage
 - Edit workouts
 - Delete workouts
+
+### Version 1.1
+- Redesigned user interface
+- Added floating form card
+- Added workout cards with improved layout
+- Implemented Flexbox layout
+- Organized project files into separate CSS and JavaScript folders
+- Improved overall styling and readability
+
