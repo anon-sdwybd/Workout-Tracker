@@ -1,33 +1,54 @@
-# Workout-Tracker
+# Workout Tracker
 
-First personal project, using HTML, CSS, and JavaScript about a Workout Tracker
+My first personal programming project built using HTML, CSS, and JavaScript.
 
-## Version
+## Current Version
 
-v1.0
+**v1.1**
 
 ## Description
 
-A simple JavaScript workout tracker that allows users to add exercises, weight, repetitions, and sets.
+Workout Tracker is a simple web application that allows users to add and display workouts. This project was created to practice JavaScript fundamentals, DOM manipulation, CSS styling, and project organization.
 
-## Features
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## Current Features
 
 - Add workouts
 - Display workouts dynamically
-- Uses arrays and objects
+- Store workouts using JavaScript arrays and objects
+- Workout cards with clean layout
+- Floating input form
+- Flexbox layout
+- Organized project structure (HTML, CSS, and JavaScript separated into folders)
 
 ## Planned Features
 
-- Better CSS styling
-- localStorage
+### Version 1.2
+- Save workouts using localStorage
+- Automatically load workouts after refreshing the page
+
+### Future Updates
 - Edit workouts
 - Delete workouts
+- Search workouts
+- Workout statistics
+- Progress tracking
 
-### Version 1.1
-- Redesigned user interface
-- Added floating form card
-- Added workout cards with improved layout
-- Implemented Flexbox layout
-- Organized project files into separate CSS and JavaScript folders
-- Improved overall styling and readability
+## What I Learned
 
+- DOM Manipulation
+- Arrays and Objects
+- JavaScript Functions
+- Template Literals
+- Flexbox
+- Basic Git & GitHub
+- Organizing project files
+
+## Author
+
+Created by phroghealer as part of my programming learning journey.
