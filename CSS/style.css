@@ -1,20 +1,42 @@
 body{
-    background-color: lightblue;
+    background-image: url("../Images/gymblur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }
 h1{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
+    color: lightblue;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+}
+label{
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 125px;
+}
+input{
+    display: inline-block;
 }
 .FormCard{
     width: 300px;
     padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(173, 216, 230, 0.895);
     box-shadow: 3px 3px 5px black;
     border: solid rgb(255, 255, 255);
 }
 .workoutcard{
     width: 300px;
-    margin-bottom: 10px;
+    border-radius: 6px;
+    margin-bottom: 25px;
     padding: 15px;
     border: solid white;
+    background-color: rgba(173, 216, 230, 0.895);
     box-shadow: 3px 3px 5px black;
 }
 .workoutcard hr{
@@ -24,10 +46,30 @@ h1{
     
 }
 .workoutcard h2{
-    margin-bottom: 3px;
+    margin-bottom: 1px;
+    color: rgb(72, 34, 197);
+    text-shadow: 
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000,
+    0px -0.5px 0 #000,
+    0px 0.5px 0 #000,
+    -0.5px 0px 0 #000,
+    0.5px 0px 0 #000;
 }
 .workoutcard p{
     font-weight: 700;
+    color: rgb(60, 168, 75);
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000,
+    0px -0.5px 0 #000,
+    0px 0.5px 0 #000,
+    -0.5px 0px 0 #000,
+    0.5px 0px 0 #000;
 }
 .Container{
     align-items: flex-start;
