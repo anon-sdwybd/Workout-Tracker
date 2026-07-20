@@ -1,54 +1,48 @@
 # Workout Tracker
 
-My first personal programming project built using HTML, CSS, and JavaScript.
+A simple Workout Tracker built using HTML, CSS, and JavaScript.
 
-## Current Version
+This project was created to practice JavaScript fundamentals by building a real CRUD (Create, Read, Update, Delete) application without external libraries or frameworks.
 
-**v1.1**
+## Features
 
-## Description
+- Add workouts
+- Edit existing workouts
+- Delete workouts
+- Automatically save workouts using Local Storage
+- Automatically load saved workouts when reopening the application
+- Dynamic workout card generation
 
-Workout Tracker is a simple web application that allows users to add and display workouts. This project was created to practice JavaScript fundamentals, DOM manipulation, CSS styling, and project organization.
-
-## Built With
+## Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript (Vanilla)
 
-## Current Features
+## Current Version
 
-- Add workouts
-- Display workouts dynamically
-- Store workouts using JavaScript arrays and objects
-- Workout cards with clean layout
-- Floating input form
-- Flexbox layout
-- Organized project structure (HTML, CSS, and JavaScript separated into folders)
+**v1.2**
 
-## Planned Features
+## Project Goals
 
-### Version 1.2
-- Save workouts using localStorage
-- Automatically load workouts after refreshing the page
-
-### Future Updates
-- Edit workouts
-- Delete workouts
-- Search workouts
-- Workout statistics
-- Progress tracking
-
-## What I Learned
+This project serves as a practical way to improve understanding of:
 
 - DOM Manipulation
-- Arrays and Objects
-- JavaScript Functions
-- Template Literals
-- Flexbox
-- Basic Git & GitHub
-- Organizing project files
+- Objects and Arrays
+- Functions
+- Loops
+- Local Storage
+- Event Handling
+- Dynamic HTML Rendering
+- Application State Management (Add Mode / Edit Mode)
 
-## Author
+## Future Improvements
 
-Created by Shadowy as part of my programming learning journey.
+- Better UI styling
+- Responsive workout card layout
+- Edit Mode indicator
+- Additional quality-of-life improvements
+
+## Learning Notes
+
+This project was intentionally built from scratch without using frameworks. The primary goal was to strengthen problem-solving skills and gain a deeper understanding of how JavaScript applications manage data and user interactions.
