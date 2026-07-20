@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v1.2] - 2026-07-20
+
+### Added
+- ✨ Added workout editing functionality.
+- 🗑️ Added workout deletion functionality.
+- 💾 Added automatic saving using Local Storage.
+- 🔄 Added automatic loading of saved workouts when reopening the application.
+- 📄 Added dynamic workout card generation using JavaScript template literals.
+- 🧠 Implemented Edit Mode for updating existing workouts.
+
+### Improved
+- Refactored the project into dedicated functions for:
+  - Adding workouts
+  - Editing workouts
+  - Deleting workouts
+  - Displaying workouts
+  - Starting Edit Mode
+  - Submitting workouts
+- Improved code organization and readability.
+- Workout list now refreshes automatically after every modification.
+- Form automatically resets after adding a workout.
+
+### Fixed
+- Fixed workouts not displaying after refreshing the page.
+- Fixed Local Storage synchronization issues.
+- Fixed deleting workouts not updating saved data correctly.
+- Fixed edited workouts creating duplicates instead of replacing existing ones.
+- Fixed Edit Mode remaining active after saving changes.
+
+### Known Issues
+- Form is not yet reset after completing an edit.
+- No visual indicator to show when Edit Mode is active.
+- Workout cards continue in a single vertical column instead of wrapping into multiple columns when many workouts are added.
 
 ## Version 1.1
 
