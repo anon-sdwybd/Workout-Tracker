@@ -34,7 +34,13 @@
                     <label for="Sets">Sets:</label>
                     <input type="number" id="Sets">
 
-                    <button type="button" id="SubmitButton" onclick="SubmitWorkout()">Submit Workout</button>
+                    <button type="button" id="SubmitImage" onclick="ChooseImage()">📷 Add Image</button>
+                    <input type="file" id="ImagePicker" accept="image/*" style="display:none;">
+                    <button type="button" id="SubmitButton" onclick="SubmitWorkout()">➕ Submit Workout</button>
+
+                    <div>
+                        <img src="" id="imageDisplay">
+                    </div>
                 </form>
             </div>
 

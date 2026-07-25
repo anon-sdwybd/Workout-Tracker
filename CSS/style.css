@@ -7,6 +7,10 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
+.form button{
+    width: 140px;
+    height: 25px;
+}
 h1{
     font-size: 40px;
     font-family: "Montserrat", sans-serif;
@@ -21,6 +25,16 @@ label{
 }
 input{
     display: inline-block;
+}
+#WorkoutList{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    gap: 20px;
+    align-content: start;
+}
+#imageDisplay{
+    margin-top: 10px;
 }
 .FormCard{
     width: 300px;
@@ -46,6 +60,7 @@ input{
     
 }
 .workoutcard h2{
+    width: 100px;
     margin-bottom: 1px;
     color: rgb(72, 34, 197);
     text-shadow: 
@@ -71,8 +86,14 @@ input{
     -0.5px 0px 0 #000,
     0.5px 0px 0 #000;
 }
+.workoutcard img{
+    width: 70px;
+}
 .Container{
     align-items: flex-start;
     display: flex;
     gap: 40px;
+}
+#imageDisplay{
+    width: 100px;
 }
