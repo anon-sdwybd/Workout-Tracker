@@ -2,16 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.3] - 2026-08-04
+## Backend & Database
+
+### Added
+
+- MongoDB Atlas support
+- Mongoose schema and model
+- Environment variable support
+- Persistent workout storage
+
+### Changed
+
+- Replaced in-memory array with MongoDB collection
+- Converted CRUD routes to asynchronous Mongoose operations
+
+### Fixed
+
+- Workout data disappearing after restarting the server
+- MongoDB connection handling
+- ObjectId support
+
 ---
 ## [v1.2] - 2026-07-20
 
 ### Added
-- ✨ Added workout editing functionality.
-- 🗑️ Added workout deletion functionality.
-- 💾 Added automatic saving using Local Storage.
-- 🔄 Added automatic loading of saved workouts when reopening the application.
-- 📄 Added dynamic workout card generation using JavaScript template literals.
-- 🧠 Implemented Edit Mode for updating existing workouts.
+- Added workout editing functionality.
+- Added workout deletion functionality.
+- Added automatic saving using Local Storage.
+- Added automatic loading of saved workouts when reopening the application.
+- Added dynamic workout card generation using JavaScript template literals.
+- Implemented Edit Mode for updating existing workouts.
 
 ### Improved
 - Refactored the project into dedicated functions for:
@@ -37,9 +58,7 @@ All notable changes to this project will be documented in this file.
 - No visual indicator to show when Edit Mode is active.
 - Workout cards continue in a single vertical column instead of wrapping into multiple columns when many workouts are added.
 
-## Version 1.1
-
-**Release Date:** July 2026
+## [v1.1] 2026-07-18
 
 ### Added
 - Redesigned the user interface.
@@ -66,9 +85,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## Version 1.0
-
-**Release Date:** July 2026
+## [v1.0] 2026-07-15
 
 ### Initial Release
 
