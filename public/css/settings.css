@@ -1,0 +1,28 @@
+.settingscontainer {
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.settingsheader {
+    text-align: center;
+    color: rgba(173, 216, 230, 0.895);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    font-weight: 700px;
+}
+
+.details {
+    background-color: rgba(173, 216, 230, 0.895);
+    border: solid black 2px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#username-output ,#displayname-output ,#email-output {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+}

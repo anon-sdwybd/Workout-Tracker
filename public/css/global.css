@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/gymblur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.navbarcontainer {
+    background-color: rgba(173, 216, 230, 0.895);
+    width: auto;
+    height: 50px;
+    box-shadow: 3px 3px 5px rgb(26, 25, 25);
+    border-bottom: solid black 2px;
+}
+
+.navbar-title {
+    margin-bottom: 24px;
+}
+
+.navbar {
+    height: 75px;
+    padding: 0 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    margin-bottom: 24px;
+    gap: 100px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
