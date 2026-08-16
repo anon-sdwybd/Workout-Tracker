@@ -1,64 +1,131 @@
 # Workout Tracker
 
-A simple Workout Tracker built using HTML, CSS, JavaScript, Node.js, Express, MongoDB Atlas, and Mongoose.
+A personal workout-tracking web application built as a full-stack project using HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
 
-This project was created to practice full-stack web development by gradually expanding a CRUD (Create, Read, Update, Delete) application from a simple front-end project into a database-driven web application.
+The goal of the project is to allow users to manage their accounts and eventually create, save, and track their workouts through a simple web interface.
 
-## Features
+## Current Features
 
-- Add workouts
-- Edit existing workouts
-- Delete workouts
-- Upload workout images
-- Image preview before saving
-- Persistent workout storage using MongoDB Atlas
-- Automatically load saved workouts when reopening the application
-- Dynamic workout card generation
-- RESTful API integration
+### Account System
 
-## Technologies Used
+* User registration and authentication
+* JWT-based authentication
+* Login and logout functionality
+* Protected API routes
+* Profile information retrieval and editing
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- Dotenv
+### Profile System
 
-## Current Version
+* Username editing
+* Display name editing
+* Bio editing
+* Profile picture selection and saving
+* Profile information displayed dynamically from the backend
 
-**v1.3**
+### Settings
+
+* Account details display
+* Username, display name, and email retrieval
+* Logout functionality
+
+## Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js, Express
+* **Database:** MongoDB / Mongoose
+* **Authentication:** JSON Web Tokens (JWT)
+* **Development:** Visual Studio Code
+
+## Project Status
+
+The account and profile system is currently functional.
+
+The next stage of development focuses on polishing the existing login and settings interfaces and expanding the workout creation and tracking system.
+
+## Planned Features
+
+* Workout creation
+* Additional workout configuration options
+* Saving workouts to the user's account
+* Viewing saved workouts
+* Editing and deleting workouts
+* Workout history and tracking
+* Further UI/UX improvements
+
+## Running the Project
+
+Install the project's dependencies:
+
+```bash
+npm install
+```
+
+Then start the backend server using the project's configured start command.
+
+The application is currently under active development, so setup and available features may change as development continues.
 
 ## Project Goals
 
-This project serves as a practical way to improve understanding of:
+This project is also being developed as a learning and portfolio project. It is intended to demonstrate practical experience with frontend development, backend APIs, authentication, databases, and connecting different parts of a full-stack application.
 
-- DOM Manipulation
-- Objects and Arrays
-- Functions
-- Loops
-- Event Handling
-- Dynamic HTML Rendering
-- Application State Management (Add Mode / Edit Mode)
-- REST API Development
-- CRUD Operations
-- MongoDB
-- Mongoose
-- Client–Server Communication
-- Asynchronous JavaScript (async / await)
 
-## Future Improvements
+# Changelog
 
-- User authentication system
-- Individual user workout collections
-- Better UI styling
-- Responsive workout card layout
-- Search and filter workouts
-- Workout statistics
-- Additional quality-of-life improvements
+All notable changes to this project will be documented here.
 
-## Learning Notes
+## [v1.3] - 2026-08-04
 
-This project was intentionally built from scratch with minimal external libraries. It began as a front-end JavaScript CRUD application using Local Storage before being migrated to a Node.js + Express backend with MongoDB Atlas and Mongoose for persistent data storage. The primary goal is to strengthen problem-solving skills while gaining a deeper understanding of how full-stack web applications manage data, communicate between the client and server, and interact with databases.
+### Backend & Database
+
+### Added
+
+- MongoDB Atlas support
+- Mongoose schema and model
+- Environment variable support
+- Persistent workout storage
+
+### Changed
+
+- Replaced in-memory array with MongoDB collection
+- Converted CRUD routes to asynchronous Mongoose operations
+
+### Fixed
+
+- Workout data disappearing after restarting the server
+- MongoDB connection handling
+- ObjectId support
+
+---
+
+## [0.1.0] - 2026-08-10
+
+### Added
+
+* User authentication system
+* JWT-based authentication for protected routes
+* Login and logout functionality
+* Profile retrieval through the backend API
+* Profile editing through a PUT request
+* Username editing
+* Display name editing
+* Bio editing
+* Profile picture selection and saving
+* Settings page
+* Account details display
+* Backend profile validation
+* Dynamic rendering of profile information
+
+### Improved
+
+* Frontend and backend communication for profile updates
+* Error handling for failed profile requests
+* Dynamic profile rendering
+* Connection between stored user data and the settings interface
+
+### Fixed
+
+* Profile update route returning incorrect results
+* Profile data disappearing after updates
+* Profile picture data not being included in profile updates
+* DOM element lookup errors caused by incorrect IDs
+* Profile picture path handling through `FileReader`
