@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/settings.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <script src="../js/settings.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbarcontainer">
+        <div class="navbar">
+            <a class="navbar-title">Workout Tracker</a>
+
+            <div class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="profile.html">Profile</a>
+                <a href="settings.html">Settings</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="settingscontainer">
+            <div class="settingsheader">
+                <h1>Settings</h1>
+            </div>
+
+            <div class="details">
+                <h2>Account Details</h2>
+
+                <p class="settingslabel">Username</p>
+                <p id="username-output"></p>
+
+                <p class="settingslabel">Display Name</p>
+                <p id="displayname-output"></p>
+
+                <p class="settingslabel">Email</p>
+                <p id="email-output"></p>
+
+                <button type="button" class="logoutbutton" onclick="Logout()">Logout</button>
+            </div>
+
+
+        </div>
+    </main>
+</body>
+
+</html>

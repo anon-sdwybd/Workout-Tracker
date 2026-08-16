@@ -1,0 +1,45 @@
+body{
+    background-image: url("../img/vecteezy_athlete-running-on-the-road-at-sunset-wearing-sneakers_57502127.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+h1 {
+    color: #ffe19b;
+    text-align: center;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+}
+.Container {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #ffe19bd3;
+    box-shadow: 3px 3px 5px black;
+    border: solid rgb(255, 255, 255);
+}
+.signupcontainer {
+    width: 500px;
+    margin-left: 100px;
+}
+.loginform{
+    height: 250px;
+    margin: auto;
+}
+.Container button {
+    display: block;
+    width: 170px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    width: 125px;
+}
+input{
+    margin-bottom: 10px;
+}

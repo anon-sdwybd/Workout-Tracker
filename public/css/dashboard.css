@@ -1,0 +1,105 @@
+.form button {
+    width: 140px;
+    height: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    color: lightblue;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 125px;
+}
+
+input {
+    display: inline-block;
+}
+
+#WorkoutList {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    gap: 20px;
+    align-content: start;
+}
+
+#imageDisplay {
+    margin-top: 10px;
+}
+
+.FormCard {
+    width: 300px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(173, 216, 230, 0.895);
+    box-shadow: 3px 3px 5px black;
+    border: solid rgb(255, 255, 255);
+}
+
+.workoutcard {
+    width: 300px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: solid white;
+    background-color: rgba(173, 216, 230, 0.895);
+    box-shadow: 3px 3px 5px black;
+}
+
+.workoutcard hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+
+}
+
+.workoutcard h2 {
+    width: 100px;
+    margin-bottom: 1px;
+    color: rgb(72, 34, 197);
+    text-shadow:
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000,
+        -0.5px 0.5px 0 #000,
+        0.5px 0.5px 0 #000,
+        0px -0.5px 0 #000,
+        0px 0.5px 0 #000,
+        -0.5px 0px 0 #000,
+        0.5px 0px 0 #000;
+}
+
+.workoutcard p {
+    font-weight: 700;
+    color: rgb(60, 168, 75);
+    text-shadow:
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000,
+        -0.5px 0.5px 0 #000,
+        0.5px 0.5px 0 #000,
+        0px -0.5px 0 #000,
+        0px 0.5px 0 #000,
+        -0.5px 0px 0 #000,
+        0.5px 0px 0 #000;
+}
+
+.workoutcard img {
+    width: 70px;
+}
+
+.Container {
+    align-items: flex-start;
+    display: flex;
+    gap: 40px;
+}
+
+#imageDisplay {
+    width: 100px;
+}
