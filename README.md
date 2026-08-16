@@ -73,6 +73,41 @@ This project is also being developed as a learning and portfolio project. It is 
 
 All notable changes to this project will be documented here.
 
+## [v.14] - 2026-08-16
+
+### Added
+
+* User authentication system
+* JWT-based authentication for protected routes
+* Login and logout functionality
+* Profile retrieval through the backend API
+* Profile editing through a PUT request
+* Username editing
+* Display name editing
+* Bio editing
+* Profile picture selection and saving
+* Settings page
+* Account details display
+* Backend profile validation
+* Dynamic rendering of profile information
+
+### Improved
+
+* Frontend and backend communication for profile updates
+* Error handling for failed profile requests
+* Dynamic profile rendering
+* Connection between stored user data and the settings interface
+
+### Fixed
+
+* Profile update route returning incorrect results
+* Profile data disappearing after updates
+* Profile picture data not being included in profile updates
+* DOM element lookup errors caused by incorrect IDs
+* Profile picture path handling through `FileReader`
+
+---
+
 ## [v1.3] - 2026-08-04
 
 ### Backend & Database
